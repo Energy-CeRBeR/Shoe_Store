@@ -1,6 +1,7 @@
 from pydantic_core._pydantic_core import PydanticCustomError
 from pydantic import field_validator, validate_email, BaseModel
 
+
 class LoginModel(BaseModel):
     email: str
     password: str
